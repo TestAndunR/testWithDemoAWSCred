@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "cf79726a-c250-4efc-94c0-2b4f2c8f2f00": {
+        "id": "cf79726a-c250-4efc-94c0-2b4f2c8f2f00",
+        "parent": null,
+        "name": "testWithDemoAWSCred",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "1c4579fb-0865-49c6-adfe-d4a882dd3152"
+        ],
+        "isRemovable": false,
+        "filePath": "testWithDemoAWSCred"
+      },
+      "1c4579fb-0865-49c6-adfe-d4a882dd3152": {
+        "id": "1c4579fb-0865-49c6-adfe-d4a882dd3152",
+        "parent": "cf79726a-c250-4efc-94c0-2b4f2c8f2f00",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testWithDemoAWSCred/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "cf79726a-c250-4efc-94c0-2b4f2c8f2f00",
+    "openFiles": [
+      "1c4579fb-0865-49c6-adfe-d4a882dd3152"
+    ],
+    "currentFileId": "1c4579fb-0865-49c6-adfe-d4a882dd3152",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testWithDemoAWSCred",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1551241618014
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testWithDemoAWSCred",
+      "url": "https://github.com/TestAndunR/testWithDemoAWSCred"
+    }
+  }
+}
